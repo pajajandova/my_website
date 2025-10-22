@@ -223,4 +223,8 @@ div.frame img {
     div.frame img {
         width: 70px;
     }
+
+    div.separator1 {
+    width: 300px;
+    }
 }
