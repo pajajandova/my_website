@@ -178,3 +178,49 @@ div.text_with_vertical_line p {
     margin-top: -1px;
     line-height: 1.2;
 }
+
+div.frame img {
+    width: 100px;
+}
+
+/*RESPONSIVE DESIGN: MOBILE */
+@media only screen and (max-width: 768px) {
+    img.cover_profile {
+    height: 90px;
+    margin-top: 75px;
+    }
+
+    h1 {
+    font-size: 38px;
+    margin-top: 6px;
+    }
+
+    div.cover p {
+    font-size: 13px;
+    margin-top: 2px;
+    }
+
+    div.section {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    div.gray_section_1 {
+    padding-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    div.frame {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: white;
+    box-shadow: none;
+    }
+
+    div.frame img {
+        width: 70px;
+    }
+}
